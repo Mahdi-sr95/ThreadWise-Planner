@@ -1,7 +1,7 @@
-# **ThreadWise Planner** 
+<img width="1335" height="436" alt="image" src="https://github.com/user-attachments/assets/8d3a40d6-26a5-4ec8-957b-64a15af5e245" /># **ThreadWise Planner** 
 AI-Powered Adaptive Study Planner with Smart Scheduling
 
-> **Creativity, Science, and Innovation (CSI) Course Project**  
+### > **Creativity, Science, and Innovation (CSI) Course Project**  
 > Politecnico di Milano - January 2026
 
 ---
@@ -77,7 +77,7 @@ streamlit run app.py
 The app will open in your browser at http://localhost:8501
 
 ### 📝 Example Usage
-Input (Free-form)
+### Input (Free-form)
 1- Wireless internet, 10/01/2026, Hard
 2- Multimedia, 12/01/2026, Medium  
 3- CSI, 09/JAN/2026, Hard
@@ -91,7 +91,7 @@ Duration: Time allocated (formatted as "2h 30 min")
 Difficulty: Easy/Medium/Hard
 
 ### 🛠️ Technical Stack
-Frontend: Streamlit
+### Frontend: Streamlit
 AI Model: Qwen 2.5-Coder-32B via Hugging Face Inference API
 Data Processing: Pandas, Python datetime
 Calendar Export: ics library
@@ -99,7 +99,7 @@ Calendar Export: ics library
 ### 👥 Team
 Team ThreadWise:
 
-Mahdi Soltani Renani
+### Mahdi Soltani Renani
 Emad Karimianshamsabadi
 Lucas Lescure
 
@@ -110,13 +110,13 @@ Date: January 2026
 ### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### 🙏 Acknowledgments
-Thanks to the Hugging Face team for providing free API access to state-of-the-art LLMs
+🙏 Acknowledgments
+### Thanks to the Hugging Face team for providing free API access to state-of-the-art LLMs
 Inspired by research on Interleaving, Spaced Repetition, and Cognitive Load Theory
 Special thanks to the CSI course instructors at Politecnico di Milano
 
 ### 📧 Contact
-For questions or feedback, please open an issue or contact the team via GitHub.
+### For questions or feedback, please open an issue or contact the team via GitHub.
 ⭐ If you find this project useful, please star the repository!
 
 

@@ -69,7 +69,7 @@ cd ThreadWise-Planner-CSI
 mkdir .streamlit
 ```
 ### **Inside .streamlit, create a file named secrets.toml and add your Hugging Face token:**
--HF_TOKEN = "huggingface_token"
+HF_TOKEN = "huggingface_token"
 
 ### Step 4: Run the Application
 ```bash
@@ -79,9 +79,7 @@ The app will open in your browser at http://localhost:8501
 
 ### 📝 Example Usage
 **Input (Free-form)**
--1- Wireless internet, 10/01/2026, Hard
--2- Multimedia, 12/01/2026, Medium  
--3- CSI, 09/JAN/2026, Hard
+- Wireless internet, 10/01/2026, Hard. Multimedia, 12/01/2026, Medium. CSI, 09/JAN/2026, Hard.
 
 **Output**
 **A structured study plan with:**
@@ -91,32 +89,52 @@ The app will open in your browser at http://localhost:8501
 -Duration: Time allocated (formatted as "2h 30 min")
 -Difficulty: Easy/Medium/Hard
 
-### **🛠️ Technical Stack**
-**Frontend: Streamlit**
-AI Model: Qwen 2.5-Coder-32B via Hugging Face Inference API
-Data Processing: Pandas, Python datetime
-Calendar Export: ics library
+## 🛠️ Technical Stack
 
-**👥 Team**
+- **Frontend:** [Streamlit](https://streamlit.io/)
+
+- **AI Model:** [Qwen 2.5-Coder-32B](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) via Hugging Face Inference API
+
+- **Data Processing:** Pandas, Python datetime
+
+- **Calendar Export:** `ics` library
+
+---
+
+## 👥 Team
+
 **Team ThreadWise:**
--Mahdi Soltani Renani
--Emad Karimianshamsabadi
--Lucas Lescure
 
-**Course: Creativity, Science, and Innovation (CSI)**
--Institution: Politecnico di Milano
--Date: January 2026
+- [Mahdi Soltani Renani](https://github.com/Mahdi-sr95)
+- Emad Karimianshamsabadi  
+- Lucas Lescure
 
-**📄 License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+**Course:** Creativity, Science, and Innovation (CSI)
 
-**🙏 Acknowledgments**
--Thanks to the Hugging Face team for providing free API access to state-of-the-art LLMs
--Inspired by research on Interleaving, Spaced Repetition, and Cognitive Load Theory
--Special thanks to the CSI course instructors at Politecnico di Milano
+**Institution:** Politecnico di Milano
 
-**📧 Contact**
--For questions or feedback, please open an issue or contact the team via GitHub.
--⭐ If you find this project useful, please star the repository!
+**Date:** January 2026
 
+---
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to the **Hugging Face** team for providing free API access to state-of-the-art LLMs
+
+- Inspired by research on **Interleaving**, **Spaced Repetition**, and **Cognitive Load Theory**
+
+- Special thanks to the CSI course instructors at Politecnico di Milano
+
+---
+
+## 📧 Contact
+
+For questions or feedback, please open an issue or contact the team via GitHub.
+
+**⭐ If you find this project useful, please star the repository!**

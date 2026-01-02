@@ -57,32 +57,32 @@ git clone https://github.com/Mahdi-sr95/ThreadWise-Planner-CSI.git
 cd ThreadWise-Planner-CSI
 ```
 
-Step 2: Install Dependencies
+### Step 2: Install Dependencies
 ```bash
   pip install -r requirements.txt
 ```
 
-Step 3: Configure API Token
+### Step 3: Configure API Token
 Create a folder named .streamlit in the project root:
 ```bash
 mkdir .streamlit
 ```
-Inside .streamlit, create a file named secrets.toml and add your Hugging Face token:
+### Inside .streamlit, create a file named secrets.toml and add your Hugging Face token:
 HF_TOKEN = "huggingface_token"
 
-Step 4: Run the Application
+### Step 4: Run the Application
 ```bash
 streamlit run app.py
 ```
 The app will open in your browser at http://localhost:8501
 
-📝 Example Usage
+### 📝 Example Usage
 Input (Free-form)
 1- Wireless internet, 10/01/2026, Hard
 2- Multimedia, 12/01/2026, Medium  
 3- CSI, 09/JAN/2026, Hard
 
-Output
+### Output
 A structured study plan with:
 Day: Date and time for each study session
 Subject: Course name
@@ -90,32 +90,32 @@ Task: Recommended activity (e.g., "Practice Problems", "Review Concepts")
 Duration: Time allocated (formatted as "2h 30 min")
 Difficulty: Easy/Medium/Hard
 
-🛠️ Technical Stack
+### 🛠️ Technical Stack
 Frontend: Streamlit
 AI Model: Qwen 2.5-Coder-32B via Hugging Face Inference API
 Data Processing: Pandas, Python datetime
 Calendar Export: ics library
 
-👥 Team
+### 👥 Team
 Team ThreadWise:
 
 Mahdi Soltani Renani
 Emad Karimianshamsabadi
 Lucas Lescure
 
-Course: Creativity, Science, and Innovation (CSI)
+### Course: Creativity, Science, and Innovation (CSI)
 Institution: Politecnico di Milano
 Date: January 2026
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 Thanks to the Hugging Face team for providing free API access to state-of-the-art LLMs
 Inspired by research on Interleaving, Spaced Repetition, and Cognitive Load Theory
 Special thanks to the CSI course instructors at Politecnico di Milano
 
-📧 Contact
+### 📧 Contact
 For questions or feedback, please open an issue or contact the team via GitHub.
 ⭐ If you find this project useful, please star the repository!
 
